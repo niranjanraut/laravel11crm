@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
+
+class ContactForm extends Model
+{
+    //
+    //use SoftDeletes;  
+    
+    protected $table = 'contact_form';    
+    protected $primaryKey = 'contact_form_id';
+    public $timestamps = false;
+}
